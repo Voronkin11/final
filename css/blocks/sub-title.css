@@ -1,0 +1,26 @@
+.sub-title {
+	position: relative;
+	margin-bottom: 85px;
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.sub-title--service {
+	margin-bottom: 40px;
+}
+
+.sub-title::after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	top: 70px;
+	left: 50%;
+	margin-left: -30px;
+}

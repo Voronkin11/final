@@ -1,0 +1,50 @@
+.slider {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1040px;
+	margin-bottom: 70px;
+	list-style: none;
+}
+
+.slider__item {
+	display: flex;
+	flex-direction: row;
+}
+
+.slider__image {
+	width: 150px;
+	height: 150px;
+	margin-right: 50px;
+}
+
+.slider__blockquote {
+	width: 770px;
+	margin: 0;
+	font-family: Roboto, arial, sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1.5;
+	color: #999999;
+}
+
+.sider__author-blockquote {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 70px;
+	font-family: 'KaushanScript', cursive;
+	font-size: 24px;
+	color: #333333;
+}
+
+.sider__author-blockquote::before {
+	position: absolute;
+	top: 50%;
+	left: -70px;
+	content: '';
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+}

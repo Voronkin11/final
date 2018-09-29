@@ -1,0 +1,167 @@
+.intro-slider {
+	width: 1220px;
+	margin-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.intro-slider__input {
+	display: none;
+}
+
+.intro-slider__list {
+	list-style: none;
+	color: #ffffff;
+}
+
+.intro-slider__item {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+.intro-slider__title {
+	margin-bottom: 40px;
+	font-family: 'KaushanScript', cursive;
+	font-size: 72px;
+}
+
+.intro-slider__sub-title {
+	position: relative;
+	margin-bottom: 120px;
+	display: block;
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 150px;
+	line-height: 0.9;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.intro-slider__sub-title::after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 60px;
+	height: 3px;
+	background-color: #ffffff;
+	top: 350px;
+	left: 50%;
+	margin-left: -30px;
+}
+
+.intro-slider__btn {
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 40px;
+	margin-bottom: 180px;
+	border: 3px solid #ffffff;
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.intro-slider__btn:hover {
+	color: #f38181;
+	border: 3px solid #f38181;
+}
+
+.intro-slider__controls {
+	display: flex;
+	width: 100%;
+	margin-bottom: 25px;
+	padding-left: 10px;
+	justify-content: space-between;
+	list-style: none;
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.intro-slider__control {
+	display: block;
+	width: 280px;
+	position: relative;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.intro-slider__control:hover {
+	opacity: 1;
+}
+
+.intro-slider__control span {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.intro-slider__control::before {
+	content: '';
+	position: absolute;
+	bottom: 45px;
+	display: block;
+	width: 280px;
+	height: 3px;
+	background-color: #ffffff;
+}
+
+.intro-slider__input--1:checked ~ .intro-slider__list .intro-slider__item--1 {
+	display: flex; 
+}
+
+.intro-slider__input--2:checked ~ .intro-slider__list .intro-slider__item--2 {
+	display: flex;
+}
+
+.intro-slider__input--3:checked ~ .intro-slider__list .intro-slider__item--3 {
+	display: flex;
+}
+
+.intro-slider__input--4:checked ~ .intro-slider__list .intro-slider__item--4 {
+	display: flex;
+}
+
+.intro-slider__input--1:checked ~ .intro-slider__controls .intro-slider__control--1 {
+	opacity: 1;
+}
+
+.intro-slider__input--2:checked ~ .intro-slider__controls .intro-slider__control--2 {
+	opacity:25;
+}
+
+.intro-slider__input--3:checked ~ .intro-slider__controls .intro-slider__control--3 {
+	opacity: 1;
+}
+
+.intro-slider__input--4:checked ~ .intro-slider__controls .intro-slider__control--4 {
+	opacity: 1;
+}
+
+.intro-slider__input--1:checked ~ .intro-slider__controls .intro-slider__control--1::before {
+	opacity: 1;
+	background: linear-gradient(to right, #f38181 25%, #ffffff 25%);
+}	
+
+.intro-slider__input--2:checked ~ .intro-slider__controls .intro-slider__control--2::before {
+	opacity: 1;
+	background: linear-gradient(to right, #f38181 25%, #fff 25%);
+}
+
+.intro-slider__input--3:checked ~ .intro-slider__controls .intro-slider__control--3::before {
+	opacity: 1;
+	background: linear-gradient(to right, #f38181 25%, #fff 25%);
+}
+
+.intro-slider__input--4:checked ~ .intro-slider__controls .intro-slider__control--4::before {
+	opacity: 1;
+	background: linear-gradient(to right, #f38181 25%, #fff 25%);
+}

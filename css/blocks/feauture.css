@@ -1,0 +1,33 @@
+.feauture {
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feauture__image {
+	position: relative;
+	width: 100%;
+}
+
+.feauture__image-big {
+	margin-left: 335px;
+	width: 475px;
+}
+
+.feauture__image-big img{
+	width: 100%;
+	height: auto;
+}
+
+.feauture__image--little {
+	position: absolute;
+	top: 195px;
+	left: 695px;
+	width: 275px;
+}
+
+.feauture__image--little img{
+	width: 100%;
+	height: auto;
+}

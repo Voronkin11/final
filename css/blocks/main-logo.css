@@ -1,0 +1,11 @@
+.main-logo {
+	margin-top: 25px;
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.main-logo__link {
+	color: #ffffff;
+	text-decoration: none;
+}

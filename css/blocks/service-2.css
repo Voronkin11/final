@@ -1,0 +1,15 @@
+.service-2 {
+	width: 1200px;
+}
+
+.service-2__accordion {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.service-2__image {
+	width: 570px;
+	height: 380px;
+}
+
