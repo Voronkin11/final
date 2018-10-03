@@ -11,8 +11,9 @@
 }
 
 .feauture__image-big {
+	margin-top: 5px;
 	margin-left: 335px;
-	width: 475px;
+	width: 476px;
 }
 
 .feauture__image-big img{
@@ -22,8 +23,8 @@
 
 .feauture__image--little {
 	position: absolute;
-	top: 195px;
-	left: 695px;
+	top: 202px;
+	left: 697px;
 	width: 275px;
 }
 

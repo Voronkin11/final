@@ -1,6 +1,6 @@
 .main-navigation {
-	width: 520px;
-	margin-top: 35px;
+	width: 515px;
+	margin-top: 39px;
 	display: flex;
 	justify-content: space-between;
 	font-family: Montserrat, arial, sans-serif;
@@ -20,12 +20,15 @@
 .main-navigation__link--cart {
 	width: 17px;
 	height: 14px;
+	margin-top: -1px;
+	transform: translateX(8px);
 	background-image: url('../../img/cart.png');
 }
 
 .main-navigation__link--search {
 	width: 17px;
 	height: 17px;
+	margin-top: -2px;
 	background-image: url('../../img/search.png');
 }
 

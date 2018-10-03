@@ -2,8 +2,9 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	width: 1040px;
-	margin-bottom: 70px;
+	width: 980px;
+	margin-bottom: 63px;
+	padding: 0;
 	list-style: none;
 }
 
@@ -15,12 +16,13 @@
 .slider__image {
 	width: 150px;
 	height: 150px;
-	margin-right: 50px;
+	margin-right: 60px;
 }
 
 .slider__blockquote {
 	width: 770px;
 	margin: 0;
+	padding-top: 3px;
 	font-family: Roboto, arial, sans-serif;
 	font-size: 24px;
 	font-weight: 300;

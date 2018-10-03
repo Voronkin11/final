@@ -1,0 +1,12 @@
+.about {
+	width: 475px;
+}
+
+.about__text {
+	margin-bottom: 45px;
+	font-family: Roboto, arial, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #999999;
+}

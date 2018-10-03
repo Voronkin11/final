@@ -1,0 +1,21 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: #f8f8f8;
+}
+
+.footer__copyright {
+	width: 1200px;
+	padding-top: 24px;
+	padding-bottom: 22px;
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	color: #333333;
+	border-top: solid 1px #e5e5e5;
+}
+
+.footer__copyright span {
+	color: #f38181;
+}

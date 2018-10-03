@@ -1,6 +1,6 @@
 .intro-slider {
-	width: 1220px;
-	margin-top: 200px;
+	width: 1200px;
+	margin-top: 211px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -11,29 +11,34 @@
 }
 
 .intro-slider__list {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 	color: #ffffff;
 }
 
 .intro-slider__item {
+	width: 100%;
 	display: none;
 	flex-direction: column;
 	align-items: center;
 }
 
 .intro-slider__title {
-	margin-bottom: 40px;
+	width: 100%;
+	margin-bottom: 35px;
 	font-family: 'KaushanScript', cursive;
 	font-size: 72px;
+	text-align: center;
 }
 
 .intro-slider__sub-title {
+	margin-bottom: 98px;
 	position: relative;
-	margin-bottom: 120px;
 	display: block;
 	font-family: Montserrat, arial, sans-serif;
 	font-size: 150px;
-	line-height: 0.9;
+	line-height: 0.933333333;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
@@ -46,7 +51,7 @@
 	width: 60px;
 	height: 3px;
 	background-color: #ffffff;
-	top: 350px;
+	top: 325px;
 	left: 50%;
 	margin-left: -30px;
 }
@@ -57,9 +62,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 160px;
+	width: 165px;
 	height: 40px;
-	margin-bottom: 180px;
+	margin-bottom: 183px;
 	border: 3px solid #ffffff;
 	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
@@ -77,13 +82,14 @@
 .intro-slider__controls {
 	display: flex;
 	width: 100%;
-	margin-bottom: 25px;
-	padding-left: 10px;
+	margin-bottom: 23px;
+	padding: 0;
 	justify-content: space-between;
 	list-style: none;
 	font-family: Montserrat, arial, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
+	text-transform: uppercase;
 	color: #ffffff;
 }
 
@@ -107,7 +113,7 @@
 .intro-slider__control::before {
 	content: '';
 	position: absolute;
-	bottom: 45px;
+	bottom: 47px;
 	display: block;
 	width: 280px;
 	height: 3px;

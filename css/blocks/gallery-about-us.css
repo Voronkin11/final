@@ -1,5 +1,6 @@
 .gallery-about-us {
-	margin-bottom: 105px;
+	margin-bottom: 110px;
+	padding: 0;
 	list-style: none;
 	display: flex;
 	justify-content: space-between;

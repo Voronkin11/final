@@ -2,14 +2,14 @@
 	
 	var mapElement = document.getElementById('map');
 	var place = {
-		lat: 49.070378,
-		lng: 33.405373
+		lat: 49.070092,
+		lng: 33.405736
 	};
 	
 	var map = new google.maps.Map(
 		mapElement, 
 		{
-			zoom: 16, 
+			zoom: 17, 
 			center: place
 		}
 	);

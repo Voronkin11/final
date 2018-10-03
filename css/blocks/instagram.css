@@ -1,0 +1,39 @@
+.instagram {
+	width: 270px;
+}
+
+.instagram__title {
+	margin-top: 8px;
+	margin-bottom: 36px;
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.instagram__list {
+	margin-bottom: 12px;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.instagram__item {
+	width: 88px;
+	height: 88px;
+	margin: 1px;
+}
+
+.instagram__link {
+	font-family: Roboto, arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.85;
+	font-weight: 300;
+	font-style: italic;
+	text-transform: none;
+	text-decoration: none;
+	color: #333333;
+}
+

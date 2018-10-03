@@ -8,7 +8,7 @@
     display: block;
     width: 12px;
     height: 21px;
-    margin-top: -10px;
+    margin-top: -5px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -22,12 +22,12 @@
 
 .slick-prev
 { 
-    left: -45px;
+    left: -88px;
     background-image: url('../../img/prev.png');
 }
 
 .slick-next
 {
-    right: -45px;
+    right: -87px;
     background-image: url('../../img/next.png');
 }

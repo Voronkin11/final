@@ -1,10 +1,14 @@
 .gallery-work {
 	width: 100%;
+	margin: 0;
+	padding: 0;
 	list-style: none;
+
 }
 
 .gallery-work__item {
 	position: relative;
+	box-sizing: border-box;
 	width: 25%;
 }
 
@@ -23,7 +27,7 @@
 		rgba(252, 227, 138, 0.9));
 }
 
-.gallery-work__text-wrap:hover {
+.gallery-work__item:hover .gallery-work__text-wrap{
 	opacity: 1;
 }
 

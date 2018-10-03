@@ -1,13 +1,13 @@
 .service {
 	box-sizing: border-box;
 	width: 1200px;
-	margin-top: 100px;
-	margin-bottom: 75px;
 }
 
 .service__list {
 	position: relative;
 	box-sizing: border-box;
+	margin-bottom: 23px;
+	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
@@ -16,14 +16,13 @@
 .service__item {
 	box-sizing: border-box;
 	width: calc(100% / 3);
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 96px;
 	padding-left: 90px;
 }
 
 .service__name {
 	position: relative;
-	margin-bottom: 15px;
+	margin-bottom: 11px;
 	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
