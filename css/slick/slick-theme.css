@@ -1,6 +1,5 @@
 .slick-prev,
-.slick-next
-{
+.slick-next {
     font-size: 0;
     line-height: 0;
     position: absolute;
@@ -16,18 +15,43 @@
     cursor: pointer;
     color: transparent;
     border: none;
-    outline: none;
     background: transparent;
 }
 
-.slick-prev
-{ 
-    left: -88px;
+.slick-prev {
     background-image: url('../../img/prev.png');
 }
 
-.slick-next
-{
-    right: -87px;
+.slick-next {
     background-image: url('../../img/next.png');
+}
+
+@media screen and (max-width: 480px) {
+    .slick-prev {
+        left: -25px;
+    }
+
+    .slick-next {
+        right: -25px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .slick-prev {
+        left: -50px;
+    }
+
+    .slick-next {
+        right: -50px;
+    }
+}
+
+@media screen and (min-width: 1210px) {
+    .slick-prev {
+        left: -88px;
+    }
+
+    .slick-next {
+        right: -87px;
+    }
 }

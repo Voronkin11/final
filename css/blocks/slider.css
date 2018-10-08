@@ -1,30 +1,22 @@
 .slider {
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
-	width: 980px;
-	margin-bottom: 63px;
 	padding: 0;
 	list-style: none;
 }
 
 .slider__item {
 	display: flex;
-	flex-direction: row;
 }
 
-.slider__image {
-	width: 150px;
-	height: 150px;
-	margin-right: 60px;
+.slider__text {
+	display: flex;
 }
 
 .slider__blockquote {
-	width: 770px;
 	margin: 0;
 	padding-top: 3px;
 	font-family: Roboto, arial, sans-serif;
-	font-size: 24px;
 	font-weight: 300;
 	font-style: italic;
 	line-height: 1.5;
@@ -33,10 +25,7 @@
 
 .sider__author-blockquote {
 	position: relative;
-	margin-top: 10px;
-	margin-left: 70px;
 	font-family: 'KaushanScript', cursive;
-	font-size: 24px;
 	color: #333333;
 }
 
@@ -49,4 +38,110 @@
 	width: 60px;
 	height: 3px;
 	background-color: #f38181;
+}
+
+@media screen and (max-width: 480px) {
+	.slider	{
+		width: 80%;
+		margin-bottom: 10px;
+	}
+
+	.slider__item {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.slider__blockquote {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.slider__image {
+		display: none;
+	}
+
+	.slider__text {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.slider__blockquote {
+		font-size: 16px;
+	}
+
+	.sider__author-blockquote {
+		margin-left: 70px;
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.slider	{
+		width: 70%;
+		margin-bottom: 10px;
+	}
+
+	.slider__item {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.slider__blockquote {
+		width: 100%;
+		text-align: center;
+	}
+
+	.slider__image {
+		width: 50px;
+		height: 50px;
+	}
+
+	.slider__text {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.slider__blockquote {
+		font-size: 20px;
+	}
+
+	.sider__author-blockquote {
+		margin-left: 70px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1210px) {
+	.slider {
+	width: 980px;
+	margin-bottom: 63px;
+	}
+
+	.slider__item {
+		flex-direction: row;
+	}
+
+	.slider__blockquote {
+		width: 770px;
+		text-align: left;
+	}
+	.slider__image {
+		width: 150px;
+		height: 150px;
+		margin-right: 60px;
+	}
+
+	.slider__text {
+		align-items: stretch;
+	}
+
+	.slider__blockquote {
+		font-size: 24px;
+	}
+
+	.sider__author-blockquote {
+		margin-top: 10px;
+		margin-left: 70px;
+		font-size: 24px;
+	}
 }

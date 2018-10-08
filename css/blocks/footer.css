@@ -4,10 +4,24 @@
 	background-color: #f8f8f8;
 }
 
+@media screen  and (min-width: 480px) {
+	.footer__copyright {
+		width: 90%;
+		padding-top: 12px;
+		padding-bottom: 11px;
+	}
+}
+
+@media screen and (min-width: 1210px) {
+	.footer__copyright {
+		width: 1200px;
+		padding-top: 24px;
+		padding-bottom: 22px;
+	}
+}
+
 .footer__copyright {
-	width: 1200px;
-	padding-top: 24px;
-	padding-bottom: 22px;
+	
 	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;

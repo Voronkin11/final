@@ -1,10 +1,101 @@
+@media screen and (max-width: 480px) {
+	.site-navigation{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.main-navigation {
+		display: none;
+	}
+
+	.main-navigation--active {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-top: 5px;
+		margin-right: 10px;
+	}
+
+	.main-navigation__item {
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-bottom: 1px solid #ffffff;
+
+	}
+
+	.main-navigation__link {
+		width: 100%;
+		text-align: right;
+	}
+	
+	.main-navigation__link--cart {
+		width: 17px;
+		height: 14px;
+	}
+	.main-navigation__link--search {
+		width: 17px;
+		height: 17px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.main-navigation {
+		display: flex;
+		justify-content: space-between;
+		min-width: 350px;
+		font-size: 14px;
+	}
+
+	.main-navigation__item {
+		padding: 0;
+	}
+
+	.main-navigation__link:hover::after {
+		color: #fce38a;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 23px;
+		width: 100%;
+		height: 3px;
+		background-color: #fce38a;
+	}
+
+	.main-navigation__link--cart {
+		width: 17px;
+		height: 14px;
+	}
+
+	.main-navigation__link--search {
+		width: 17px;
+		height: 17px;
+	}
+}
+
+
+@media screen and (min-width: 1210px) {
+	.main-navigation {
+		width: 515px;
+		margin-top: 39px;
+	}
+
+	
+
+	.main-navigation__link--cart {
+		margin-top: -1px;
+		transform: translateX(8px);
+	}
+
+	.main-navigation__link--search {
+		margin-top: -2px;
+	}
+}
+
 .main-navigation {
-	width: 515px;
-	margin-top: 39px;
-	display: flex;
-	justify-content: space-between;
 	font-family: Montserrat, arial, sans-serif;
-	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
 	list-style: none;
@@ -18,31 +109,18 @@
 }
 
 .main-navigation__link--cart {
-	width: 17px;
-	height: 14px;
-	margin-top: -1px;
-	transform: translateX(8px);
-	background-image: url('../../img/cart.png');
-}
+		background-image: url('../../img/cart.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 
 .main-navigation__link--search {
-	width: 17px;
-	height: 17px;
-	margin-top: -2px;
 	background-image: url('../../img/search.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
+
 
 .main-navigation__link:hover {
 	color: #fce38a;
-}
-
-.main-navigation__link:hover::after {
-	color: #fce38a;
-	content: '';
-	display: block;
-	position: absolute;
-	top: 23px;
-	width: 100%;
-	height: 3px;
-	background-color: #fce38a;
 }
