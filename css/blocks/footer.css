@@ -4,6 +4,28 @@
 	background-color: #f8f8f8;
 }
 
+.footer__copyright {
+	
+	font-family: Montserrat, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	color: #333333;
+	border-top: solid 1px #e5e5e5;
+}
+
+.footer__copyright span {
+	color: #f38181;
+}
+
+@media screen  and (max-width: 480px) {
+	.footer__copyright {
+		width: 90%;
+		padding-top: 12px;
+		padding-bottom: 11px;
+	}
+}
+
 @media screen  and (min-width: 480px) {
 	.footer__copyright {
 		width: 90%;
@@ -20,16 +42,3 @@
 	}
 }
 
-.footer__copyright {
-	
-	font-family: Montserrat, arial, sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	text-align: center;
-	color: #333333;
-	border-top: solid 1px #e5e5e5;
-}
-
-.footer__copyright span {
-	color: #f38181;
-}

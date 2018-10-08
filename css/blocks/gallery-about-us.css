@@ -108,6 +108,7 @@
 	}
 
 	.gallery-about-us__item:hover .gallery-about-us__link {
+		transition: 0.5s;
 		opacity: 1;
 	}
 

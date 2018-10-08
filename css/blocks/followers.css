@@ -4,8 +4,6 @@
 
 .followers__quantity {
 	width: 100%;
-	margin-bottom: 11px;
-	padding-bottom: 14px;
 	font-family: Montserrat, arial, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
@@ -19,29 +17,18 @@
 
 .followers__list {
 	margin: 0;
-	margin-bottom: 31px;
 	padding: 0;
 	display: flex;
-	align-items: center;
 	list-style: none;
 }
 
 .followers__item {
-	margin-right: 16px;
 	font-family: Roboto, arial, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
 	font-style: italic;
 	line-height: 1.6;
 	color: #999999;
-}
-
-.followers__item:first-child {
-	margin-right: 20px;
-}
-
-.followers__item:last-child {
-	margin-right: 0;
 }
 
 .followers__link {
@@ -55,9 +42,6 @@
 
 .followers__input {
 	box-sizing: border-box;
-	width: 229px;
-	height: 40px;
-	padding-left: 13px;
 	font-family: Roboto, arial, sans-serif;
 	font-size: 15px;
 	font-weight: 300;
@@ -73,7 +57,6 @@
 
 .followers__button {
 	box-sizing: border-box;
-	width: 151px;
 	font-family: Montserrat, arial, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
@@ -82,3 +65,89 @@
 	background-color: #95e1d3;
 	border: none;
 }
+
+@media screen and (max-width: 480px) {
+	.followers {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.followers__quantity {
+		margin-bottom: 5px;
+		padding-bottom: 7px;
+	}
+
+	.followers__list {
+		margin-bottom: 5px;
+		justify-content: space-between;
+	}
+
+	.followers__input {
+		width:70%;
+		height: 40px;
+		padding-left: 5px;
+	}
+
+	.followers__button {
+		width: 30%;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.followers__quantity {
+		margin-bottom: 5px;
+		padding-bottom: 7px;
+	}
+
+	.followers__list {
+		margin-bottom: 10px;
+		padding-right: 10px;
+		justify-content: space-between;
+	}
+
+	.followers__input {
+		width:70%;
+		height: 40px;
+		padding-left: 5px;
+	}
+
+	.followers__button {
+		max-width: 150px;
+	}
+}
+
+@media screen and (min-width: 1210px) {
+	.followers__quantity {
+		margin-bottom: 11px;
+		padding-bottom: 14px;
+	}
+
+	.followers__list {
+		margin-bottom: 31px;
+		padding: 0;
+		justify-content: flex-start;
+	}
+
+	.followers__item {
+		margin-right: 16px;
+	}
+
+	.followers__item:first-child {
+	margin-right: 20px;
+}
+
+	.followers__item:last-child {
+		margin-right: 0;
+	}
+
+	.followers__input {
+		width: 229px;
+		height: 40px;
+		padding-left: 13px;
+	}
+
+	.followers__button {
+		width: 151px;
+	}
+}
+

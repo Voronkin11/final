@@ -44,10 +44,12 @@
 .section--contact {
 	background-color: #f8f8f8;
 }
-
 .section__contact-wrap {
 	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
+
 
 @media screen and (max-width: 480px) {
 	.section--feauture {
@@ -73,14 +75,19 @@
 	.section--work {
 		padding-top: 10px;
 	}
+	
+	.section__contact-wrap {
+		display: flex;
+		justify-content: space-between;
+	}
 
 	.section__contact-wrap {
 		width: 95%;
-		margin-bottom: 10px;
-		padding-top: 10px;
+		margin-bottom: 5px;
+		padding-top: 5px;
 		flex-direction: column;
 		align-items: center;
-	}
+	}	
 }
 
 @media screen and (min-width: 480px) {
@@ -108,8 +115,6 @@
 		width: 95%;
 		margin-bottom: 20px;
 		padding-top: 20px;
-		flex-direction: column;
-		align-items: center;
 	}
 }
 
