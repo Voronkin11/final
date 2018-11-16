@@ -34,6 +34,21 @@
 .followers__link {
 	display: block;
 	padding-top: 4px;
+	z-index: 1;
+}
+
+.followers__svg {
+	position: relative;
+	fill-rule: evenodd;
+	fill: #95E1D3;
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.followers__svg:hover {
+	fill-rule: evenodd;
+	fill: #ff0000;
+	transform: scale(1.5);
 }
 
 .followers__form {
@@ -65,6 +80,7 @@
 	background-color: #95e1d3;
 	border: none;
 }
+
 
 @media screen and (max-width: 480px) {
 	.followers {
@@ -148,6 +164,22 @@
 
 	.followers__button {
 		width: 151px;
+	}
+
+	.followers__button:hover {
+		background: none;
+		background: linear-gradient(90deg,  #95e1d3, #00a900, #95e1d3);
+		background-size: 300%;
+		animation: bg_animate 3s linear infinite;
+	}
+
+	@keyframes bg_animate {
+		0% {
+			background-position: 0%;
+		}
+		100% {
+			background-position: 300%;
+		}
 	}
 }
 

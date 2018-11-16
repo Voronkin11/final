@@ -1,15 +1,9 @@
-	.hamburger {
-		position: relative;
-		width: 20px;
-		height: 15px;
-		background: none;
-		border: none;
-	}
-
-@media screen and (min-width: 480px) {
-	.hamburger {
-		display: none;
-	}
+.hamburger {
+	position: relative;
+	width: 20px;
+	height: 15px;
+	background: none;
+	border: none;
 }
 
 .hamburger__element,
@@ -56,4 +50,8 @@
 	background-color: #ff0000;
 }
 
-	
+@media screen and (min-width: 480px) {
+	.hamburger {
+		display: none;
+	}
+}

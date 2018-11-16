@@ -23,4 +23,8 @@
 			accordionHeader.find('.accordion__arrow').addClass('accordion__arrow--rotate');	
 		});
 	});
+
+	$('document').ready(function(){
+		$('.accordion__text').scrollbar();
+	});
 })($)

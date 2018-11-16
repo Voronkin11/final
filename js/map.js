@@ -1,11 +1,11 @@
 (function() {
 	'use strict'
-
 	var mapElement = document.getElementById('map');
 	var place = {
 		lat: 49.070551,
 		lng: 33.405282
 	};
+
 	
 	var map = new google.maps.Map(
 		mapElement, 
