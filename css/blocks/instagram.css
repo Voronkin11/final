@@ -15,6 +15,15 @@
 	list-style: none;
 }
 
+.instagram__item {
+	transition: 0.5s;
+}
+
+.instagram__item:hover {
+	transform: scale(2);
+	z-index: 2;
+}
+
 .instagram__link {
 	display: block;
 	font-family: Roboto, arial, sans-serif;
@@ -83,12 +92,6 @@
 		width: 88px;
 		height: 88px;
 		margin: 1px;
-		transition: 0.5s;
-		z-index: 1;
-	}
-	.instagram__item:hover {
-		transform: scale(2);
-		z-index: 2;
 	}
 
 	.instagram__link {

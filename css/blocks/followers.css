@@ -81,6 +81,22 @@
 	border: none;
 }
 
+.followers__button:hover {
+	background: none;
+	background: linear-gradient(90deg,  #95e1d3, #00a900, #95e1d3);
+	background-size: 300%;
+	animation: bg_animate 3s linear infinite;
+}
+
+@keyframes bg_animate {
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 300%;
+	}
+}
+
 
 @media screen and (max-width: 480px) {
 	.followers {
@@ -106,6 +122,7 @@
 
 	.followers__button {
 		width: 30%;
+		font-size: 12px;
 	}
 }
 
@@ -164,22 +181,6 @@
 
 	.followers__button {
 		width: 151px;
-	}
-
-	.followers__button:hover {
-		background: none;
-		background: linear-gradient(90deg,  #95e1d3, #00a900, #95e1d3);
-		background-size: 300%;
-		animation: bg_animate 3s linear infinite;
-	}
-
-	@keyframes bg_animate {
-		0% {
-			background-position: 0%;
-		}
-		100% {
-			background-position: 300%;
-		}
 	}
 }
 
